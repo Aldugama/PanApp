@@ -1,0 +1,26 @@
+.botones_generales, .listaPedidos {
+    margin: 20px auto;
+}
+
+.botones_generales th {
+    text-align: center;
+    padding: 8px;
+}
+
+.botones_generales td {
+    padding: 10px;
+}
+
+.listaPedidos th {
+    text-align: center;
+    padding: 8px;
+}
+
+.listaPedidos td {
+    padding: 17px;
+}
+
+.btntodos {
+    text-align: center;
+    margin: 0 10vw;
+}

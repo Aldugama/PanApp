@@ -1,0 +1,64 @@
+/*Cambiando valores de bootstrap para evitar superposicionamientos*/
+.row div{
+    position: static;
+}
+
+.pagination .page-link{
+    position: static;
+}
+
+.barraNavegacion {
+    margin-top: 85px;
+}
+
+/*
+Productos
+*/
+ .productos {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 120px auto;
+} 
+
+
+/*
+    Carrito
+*/
+
+.pedido-main {
+    margin: 100px auto;
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.pedido-main table {
+    font-size: 13.5px;
+    margin: 15px auto;
+    width: 70vw;
+}
+
+table .acciones{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+
+}
+
+.pedido-main .botones {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 300px;
+    font-size: 10px;
+    margin: 1.2em auto;
+    margin-bottom: 2.5em;
+}
+
+@media screen and (min-width: 800px) {
+    .pedido-main table {
+        font-size: 15.5px;
+        width: 80vw;
+    }
+}
